@@ -1,6 +1,9 @@
 # Windows
 Thumbs.db
 
-#Mac 
+# Mac 
 *.DS_Store
 ._*
+
+# General
+node_modules
