@@ -1,8 +1,10 @@
 ## **Code Modifications
 
-`npm start` - starts the server
+* `npm start` - starts the server
 
-`gulp serve` - serves the angularjs content
+* `gulp serve` - serves the angularjs content
+
+* `npm install` - install app dependencies
 
 ## Overview
 
