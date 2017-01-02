@@ -5,10 +5,9 @@ var app = express();
 // mongodb setup
 var mongoose = require('mongoose');
 
-var PORT = process.env.PORT || 5000;
+var PORT = process.env.PORT || 3000;
 
-console.log("directory ", path.join(__dirname, 'node_modules'));
-
+app.use(express.static(process.cwd() + '/app'));
 app.use('/node_modules', express.static(path.join(__dirname, 'node_modules')));
 
 app.listen(PORT, function(){

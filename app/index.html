@@ -1,5 +1,5 @@
 <!doctype html>
-<html ng-app="">
+<html ng-app="secApp">
   <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -36,7 +36,19 @@
   </head>
   <body>
 
+    <div ui-view>
+        
+    </div>
+
   <!-- ANGULARJS -->  
   <script type="text/javascript" src="/node_modules/angular/angular.min.js"></script>
+  <script type="text/javascript" src="/node_modules/angular-ui-router/release/angular-ui-router.min.js"></script>
+
+  <script type="text/javascript" src="src/app.js"></script>
+
+  <!-- LOGIN MODULE -->
+  <script type="text/javascript" src="src/modules/login/login.controller.js"></script>
+  <script type="text/javascript" src="src/modules/login/login.routes.js"></script>
+
   </body>
 </html>
