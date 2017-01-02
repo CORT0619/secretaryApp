@@ -1,4 +1,4 @@
-## Code Modifications
+## **Code Modifications
 
 npm start - starts the server
 gulp serve - serves the angularjs content
