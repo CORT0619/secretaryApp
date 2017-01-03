@@ -1,5 +1,10 @@
 angular.module('secApp', [
-		'ui.router'
+		'ui.router',
+		'login.controller',
+		'login.routes',
+
+		'newMessages.controller',
+		'newMesssages.routes'
 
 	])
 	.config(function($urlRouterProvider){
